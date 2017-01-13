@@ -1,5 +1,5 @@
 Package: panelAR
-Version: 0.1
+Version: 0.1.1
 Date: 2014-02-27
 Title: Estimation of Linear AR(1) Panel Data Models with Cross-Sectional Heteroskedasticity and/or Correlation
 Author: Konstantin Kashin <kkashin@fas.harvard.edu>
