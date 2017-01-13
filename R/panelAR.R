@@ -43,7 +43,8 @@ panelAR <- function(formula, data, panelVar, timeVar, autoCorr = c("ar1",
         stop("Please make sure that timeVar is in the data object.",call.=FALSE)
     }
     # extract time vector and check for NA values
-    time.vec <- data[, timeVar]
+    ## time.vec <- data[, timeVar]
+    time.vec <- subset(data, select = c(timeVar))
     if (any(is.na(time.vec))) {
        stop("You cannot have NA values for the time variable.",call.=FALSE)
     }
